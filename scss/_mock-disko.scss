@@ -1,0 +1,41 @@
+.mock-disko {
+  display: flex;
+  flex-direction: column;
+  background-color: #191414;
+  height: 100%;
+  padding: 10%;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.mock-disko * {
+  width: 100%;
+  margin-bottom: 30px;
+  border: 0px;
+  border-radius: 4px;
+  color: white;
+  transition-duration: 1s;
+  outline: none !important;
+}
+
+.mock-disko input {
+  padding: 4px 11px;
+  height: 40px;
+  background-color: #333;
+}
+
+.mock-disko button:hover, .mock-disko a:hover {
+  color: inherit;
+  opacity: .7;
+}
+
+.mock-disko button {
+  background-color: #1db954;
+  height: 50px;
+}
+
+.mock-disko a {
+  text-decoration: none;
+  text-align: center;
+}

@@ -39,4 +39,10 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  $("#joinRoomButton").click(function() {
+    var roomCode = $("#roomCodeInput").val();
+    var roomUrl = "https://disko.vip/room/" + roomCode;
+    window.location.href = roomUrl;
+  });
+
 })(jQuery); // End of use strict
