@@ -11,6 +11,11 @@ section.contact {
     ul.list-social {
         margin-bottom: 0;
         li {
+            span, i {
+              color: white;
+              font-size: 30px;
+              padding: 15px;
+            }
             a {
                 font-size: 80px;
                 line-height: 80px;

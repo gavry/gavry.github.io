@@ -15,16 +15,19 @@
 }
 
 .btn-outline {
-    color: white;
+    color: $theme-primary;
+    background-color: white;
     border: 1px solid;
     border-color: white;
+    transition: .5s;
     &:hover,
     &:focus,
     &:active,
     &.active {
-        color: white;
-        border-color: $theme-primary;
-        background-color: $theme-primary;
+        color: $theme-primary;
+        opacity: .7;
+        border-color: white;
+        background-color: white;
     }
 }
 
@@ -34,6 +37,6 @@
 }
 
 .btn-xl {
-    font-size: 11px;
+    font-size: 21px;
     padding: 15px 45px;
 }

@@ -6,6 +6,7 @@
     @include heading-font;
     .navbar-brand {
         color: $gray-darker;
+        font-size: 30px;
         @include heading-font;
         &:hover,
         &:focus {
@@ -20,7 +21,7 @@
     .navbar-nav {
         > li {
             > a {
-                font-size: 11px;
+                font-size: 20px;
                 @include alt-font;
                 &.active {
                     color: $theme-primary !important;

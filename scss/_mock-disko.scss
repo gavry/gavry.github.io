@@ -19,6 +19,15 @@
   outline: none !important;
 }
 
+.mock-disko img {
+  max-width: 100px;
+  transform: scale(1.6);
+}
+
+.mock-disko h3 {
+  text-align: center;
+}
+
 .mock-disko input {
   padding: 4px 11px;
   height: 40px;

@@ -1,9 +1,14 @@
 // Styling for the call to action section
 section.cta {
     position: relative;
-    padding: 250px 0;
-    background-image: url('../img/bg-cta.png');
+    background-color: #000;
+    color: white;
     background-position: center;
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
     @include background-cover;
     .cta-content {
         position: relative;
